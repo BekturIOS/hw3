@@ -34,6 +34,7 @@ class ApiManager {
         task.resume()
     }
     
+
     func postRequest( id: Int, title: String, completion: @escaping (Result<Int, Error>) -> Void) {
         guard let url = URL(string: "https://dummyjson.com/products/add") else {return}
         var request = URLRequest(url: url)

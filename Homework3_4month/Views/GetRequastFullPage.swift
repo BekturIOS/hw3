@@ -54,6 +54,7 @@ class GetRequestFullPage: UIViewController {
         image.kf.setImage(with: url)
     }
     
+    
     private func setupConstraints() {
         view.addSubview(title1)
         title1.snp.makeConstraints { make in

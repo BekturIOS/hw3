@@ -10,6 +10,7 @@ import Foundation
 import SnapKit
 import Kingfisher
 
+
 class CustomCell: UITableViewCell {
     
     static let idCell = "CustomCell"
